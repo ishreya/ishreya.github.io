@@ -21,7 +21,7 @@ header{
 	height: 100vh;
 	width: 100%;
 	min-height: 600px;
-	background: url(../img/background.jpeg) no-repeat center center fixed;	
+	background: url(../img/background.jpg) no-repeat center center fixed;	
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -34,13 +34,12 @@ header{
 	float: right;
 	padding-top: 24px;
 	display: inline-block;
-	font-family: 'Crimson Text', serif;
+	font-family: 'Lato', sans-serif;
 }
 
 .top_bar {
 	position: fixed;
-	/* color for the header*/
-	background-color: gray;
+	background-color: #000;
 	z-index: 100;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
@@ -79,8 +78,7 @@ header{
 	text-transform: uppercase;
 }
 
-
-/*End of Home screen text*/
+/****End of Home screen text*******/
 
 /***********Portfolio Elements*************/
 .work h2, .work h3 {
@@ -101,6 +99,8 @@ header{
 	perspective: 800  	
 
 }
+
+
 .thumb{
 	position: relative;
 	display: block;
